@@ -1,18 +1,21 @@
 .Section {
     width: 100%;
-    height: 50px;
     border: 5px solid black;
     display: flex;
-    margin: 0;
-    padding: 0;
-    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    
 }
 
-.Section--inline {
-    width: 49.9%;
-    height: 150px;
+.Section__heading {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.Section--bottomBlocks {
+    width: 49.8%;
+    height: 175px;
     display: inline-block;
-    margin: auto;
-    padding: 0;
     border-top: none;
 }

@@ -1,4 +1,16 @@
 .Dropdown {
-   /* float: left; */
-   margin-top: 30px; 
+  float: left;
+  height: 35px;
+}
+
+.Dropdown__content {
+    position: absolute;   
+}
+.Dropdown__button {
+    border: 1px solid black;
+}
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
 }

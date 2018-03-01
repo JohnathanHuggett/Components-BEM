@@ -1,12 +1,14 @@
 @import './components/Section/Section.css';
 @import './components/Box/Box.css';
 
+
+
 Message Input
 
-html body {
+body {
 	box-sizing: border-box;
 	min-width: 300px;
-	font-size: 62.5%
+	font-size: 62.5%;
 }
 
 .container {
